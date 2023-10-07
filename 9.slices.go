@@ -5,6 +5,9 @@ import (
 	"slices"
 )
 
+// Article by go devs on the design of slices
+// https://go.dev/blog/slices-intro
+
 func Slices() {
 	// Declare slice. Doesn't need size and by default is nil and len 0
 	// Slices can vary in size, much like arraylists in java for example
