@@ -5,6 +5,9 @@ import (
 	"math"
 )
 
+// Cool blog post about interfaces I guess. Haven't read it, but don't wanna lose the link
+// https://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go
+
 type geometry interface {
 	area()	float64
 	perim()	float64
