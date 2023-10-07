@@ -20,4 +20,6 @@ func IfElse() {
 	} else {
 		fmt.Println(num, " has multiple digits")
 	}
+
+	// There is not ternary sadly
 }
