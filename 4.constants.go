@@ -5,10 +5,10 @@ import (
 	"math"
 )
 
-const s string = "constant"
+const testConstString string = "constant"
 
 func Constants() {
-	fmt.Println(s)
+	fmt.Println(testConstString)
 
 	// Declaring this as an int would give errors since it would know its casting to other values
 	// Not declaring its type allows go to infer it when it does computations such as Sin, which expects float64
